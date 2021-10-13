@@ -1,0 +1,13 @@
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\NumberSystems_BasicOf.Net\NumberSystems_BasicOf.Net\bin\Debug\netcoreapp3.1\NumberSystems_BasicOf.Net.exe
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\NumberSystems_BasicOf.Net\NumberSystems_BasicOf.Net\bin\Debug\netcoreapp3.1\NumberSystems_BasicOf.Net.deps.json
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\NumberSystems_BasicOf.Net\NumberSystems_BasicOf.Net\bin\Debug\netcoreapp3.1\NumberSystems_BasicOf.Net.runtimeconfig.json
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\NumberSystems_BasicOf.Net\NumberSystems_BasicOf.Net\bin\Debug\netcoreapp3.1\NumberSystems_BasicOf.Net.runtimeconfig.dev.json
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\NumberSystems_BasicOf.Net\NumberSystems_BasicOf.Net\bin\Debug\netcoreapp3.1\NumberSystems_BasicOf.Net.dll
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\NumberSystems_BasicOf.Net\NumberSystems_BasicOf.Net\bin\Debug\netcoreapp3.1\NumberSystems_BasicOf.Net.pdb
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\NumberSystems_BasicOf.Net\NumberSystems_BasicOf.Net\obj\Debug\netcoreapp3.1\NumberSystems_BasicOf.Net.csprojAssemblyReference.cache
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\NumberSystems_BasicOf.Net\NumberSystems_BasicOf.Net\obj\Debug\netcoreapp3.1\NumberSystems_BasicOf.Net.AssemblyInfoInputs.cache
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\NumberSystems_BasicOf.Net\NumberSystems_BasicOf.Net\obj\Debug\netcoreapp3.1\NumberSystems_BasicOf.Net.AssemblyInfo.cs
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\NumberSystems_BasicOf.Net\NumberSystems_BasicOf.Net\obj\Debug\netcoreapp3.1\NumberSystems_BasicOf.Net.csproj.CoreCompileInputs.cache
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\NumberSystems_BasicOf.Net\NumberSystems_BasicOf.Net\obj\Debug\netcoreapp3.1\NumberSystems_BasicOf.Net.dll
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\NumberSystems_BasicOf.Net\NumberSystems_BasicOf.Net\obj\Debug\netcoreapp3.1\NumberSystems_BasicOf.Net.pdb
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\NumberSystems_BasicOf.Net\NumberSystems_BasicOf.Net\obj\Debug\netcoreapp3.1\NumberSystems_BasicOf.Net.genruntimeconfig.cache
