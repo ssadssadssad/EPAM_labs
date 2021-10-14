@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\NumberSystems_BasicOf.Net\\NumberSystems_BasicOf.Net\\NumberSystems_BasicOf.Net.csproj",
-      "projectName": "NumberSystems_BasicOf.Net",
-      "projectPath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\NumberSystems_BasicOf.Net\\NumberSystems_BasicOf.Net\\NumberSystems_BasicOf.Net.csproj",
+      "projectUniqueName": "D:\\University\\3 course\\1 sem\\EPAM\\TempFoldForProjects\\Classes_OOP\\Classes_OOP\\Classes_OOP.csproj",
+      "projectName": "Classes_OOP",
+      "projectPath": "D:\\University\\3 course\\1 sem\\EPAM\\TempFoldForProjects\\Classes_OOP\\Classes_OOP\\Classes_OOP.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\NumberSystems_BasicOf.Net\\NumberSystems_BasicOf.Net\\obj\\",
+      "outputPath": "D:\\University\\3 course\\1 sem\\EPAM\\TempFoldForProjects\\Classes_OOP\\Classes_OOP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

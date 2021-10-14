@@ -1,0 +1,13 @@
+There are the following types of engines (ICE):
+// gasoline
+// diesel
+// gas
+// gas-diesel
+// rotary piston
+
+body type: sedan, hatchback, station wagon, coupe, limousine, 
+crossover, minivan, convertible
+
+types of truck bodies: flatbed and tilt
+
+Scooter front fork: telescopic, pendulum, lever

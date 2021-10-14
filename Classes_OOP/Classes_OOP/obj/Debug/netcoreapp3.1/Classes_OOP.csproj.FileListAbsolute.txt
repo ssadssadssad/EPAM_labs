@@ -1,0 +1,13 @@
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\Classes_OOP\Classes_OOP\bin\Debug\netcoreapp3.1\Classes_OOP.exe
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\Classes_OOP\Classes_OOP\bin\Debug\netcoreapp3.1\Classes_OOP.deps.json
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\Classes_OOP\Classes_OOP\bin\Debug\netcoreapp3.1\Classes_OOP.runtimeconfig.json
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\Classes_OOP\Classes_OOP\bin\Debug\netcoreapp3.1\Classes_OOP.runtimeconfig.dev.json
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\Classes_OOP\Classes_OOP\bin\Debug\netcoreapp3.1\Classes_OOP.dll
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\Classes_OOP\Classes_OOP\bin\Debug\netcoreapp3.1\Classes_OOP.pdb
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\Classes_OOP\Classes_OOP\obj\Debug\netcoreapp3.1\Classes_OOP.csprojAssemblyReference.cache
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\Classes_OOP\Classes_OOP\obj\Debug\netcoreapp3.1\Classes_OOP.AssemblyInfoInputs.cache
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\Classes_OOP\Classes_OOP\obj\Debug\netcoreapp3.1\Classes_OOP.AssemblyInfo.cs
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\Classes_OOP\Classes_OOP\obj\Debug\netcoreapp3.1\Classes_OOP.csproj.CoreCompileInputs.cache
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\Classes_OOP\Classes_OOP\obj\Debug\netcoreapp3.1\Classes_OOP.dll
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\Classes_OOP\Classes_OOP\obj\Debug\netcoreapp3.1\Classes_OOP.pdb
+D:\University\3 course\1 sem\EPAM\TempFoldForProjects\Classes_OOP\Classes_OOP\obj\Debug\netcoreapp3.1\Classes_OOP.genruntimeconfig.cache
