@@ -1,0 +1,13 @@
+D:\University\3 course\1 sem\EPAM\EPAM_labs\lab7\Net\NetTests\bin\Debug\netcoreapp3.1\NetTests.exe
+D:\University\3 course\1 sem\EPAM\EPAM_labs\lab7\Net\NetTests\bin\Debug\netcoreapp3.1\NetTests.deps.json
+D:\University\3 course\1 sem\EPAM\EPAM_labs\lab7\Net\NetTests\bin\Debug\netcoreapp3.1\NetTests.runtimeconfig.json
+D:\University\3 course\1 sem\EPAM\EPAM_labs\lab7\Net\NetTests\bin\Debug\netcoreapp3.1\NetTests.runtimeconfig.dev.json
+D:\University\3 course\1 sem\EPAM\EPAM_labs\lab7\Net\NetTests\bin\Debug\netcoreapp3.1\NetTests.dll
+D:\University\3 course\1 sem\EPAM\EPAM_labs\lab7\Net\NetTests\bin\Debug\netcoreapp3.1\NetTests.pdb
+D:\University\3 course\1 sem\EPAM\EPAM_labs\lab7\Net\NetTests\obj\Debug\netcoreapp3.1\NetTests.csprojAssemblyReference.cache
+D:\University\3 course\1 sem\EPAM\EPAM_labs\lab7\Net\NetTests\obj\Debug\netcoreapp3.1\NetTests.AssemblyInfoInputs.cache
+D:\University\3 course\1 sem\EPAM\EPAM_labs\lab7\Net\NetTests\obj\Debug\netcoreapp3.1\NetTests.AssemblyInfo.cs
+D:\University\3 course\1 sem\EPAM\EPAM_labs\lab7\Net\NetTests\obj\Debug\netcoreapp3.1\NetTests.csproj.CoreCompileInputs.cache
+D:\University\3 course\1 sem\EPAM\EPAM_labs\lab7\Net\NetTests\obj\Debug\netcoreapp3.1\NetTests.dll
+D:\University\3 course\1 sem\EPAM\EPAM_labs\lab7\Net\NetTests\obj\Debug\netcoreapp3.1\NetTests.pdb
+D:\University\3 course\1 sem\EPAM\EPAM_labs\lab7\Net\NetTests\obj\Debug\netcoreapp3.1\NetTests.genruntimeconfig.cache
