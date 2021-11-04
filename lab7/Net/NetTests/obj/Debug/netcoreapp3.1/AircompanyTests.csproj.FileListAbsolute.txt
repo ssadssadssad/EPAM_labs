@@ -1,4 +1,0 @@
-D:\University\3 course\1 sem\EPAM\EPAM_labs\lab7\Net\NetTests\obj\Debug\netcoreapp3.1\AircompanyTests.csprojAssemblyReference.cache
-D:\University\3 course\1 sem\EPAM\EPAM_labs\lab7\Net\NetTests\obj\Debug\netcoreapp3.1\AircompanyTests.AssemblyInfoInputs.cache
-D:\University\3 course\1 sem\EPAM\EPAM_labs\lab7\Net\NetTests\obj\Debug\netcoreapp3.1\AircompanyTests.AssemblyInfo.cs
-D:\University\3 course\1 sem\EPAM\EPAM_labs\lab7\Net\NetTests\obj\Debug\netcoreapp3.1\AircompanyTests.csproj.CoreCompileInputs.cache
