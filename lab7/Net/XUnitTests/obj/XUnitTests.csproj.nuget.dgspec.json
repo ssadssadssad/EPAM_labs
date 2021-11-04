@@ -1,89 +1,9 @@
 {
   "format": 1,
   "restore": {
-    "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\MSTest\\MSTest.csproj": {}
+    "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\XUnitTests\\XUnitTests.csproj": {}
   },
   "projects": {
-    "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\MSTest\\MSTest.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\MSTest\\MSTest.csproj",
-        "projectName": "MSTest",
-        "projectPath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\MSTest\\MSTest.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\MSTest\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\Net\\Aircompany.csproj": {
-                "projectPath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\Net\\Aircompany.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "MSTest.TestAdapter": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
-            "MSTest.TestFramework": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[16.7.1, )"
-            },
-            "NUnit": {
-              "target": "Package",
-              "version": "[3.12.0, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[1.3.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\Net\\Aircompany.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -123,6 +43,90 @@
             "NUnitTestAdapter": {
               "target": "Package",
               "version": "[2.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\XUnitTests\\XUnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\XUnitTests\\XUnitTests.csproj",
+        "projectName": "XUnitTests",
+        "projectPath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\XUnitTests\\XUnitTests.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\XUnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\Net\\Aircompany.csproj": {
+                "projectPath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\Net\\Aircompany.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
             }
           },
           "imports": [
