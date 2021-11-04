@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace XUnitTests.Tests
+namespace AirportTest.Tests
 {
     [TestFixture]
     public class AirportTest
