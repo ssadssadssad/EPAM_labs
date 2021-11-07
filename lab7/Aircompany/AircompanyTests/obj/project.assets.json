@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    ".NETCoreApp,Version=v3.1": {
       "Microsoft.CodeCoverage/16.5.0": {
         "type": "package",
         "compile": {
@@ -456,12 +456,6 @@
         },
         "build": {
           "build/netcoreapp2.1/NUnit3TestAdapter.props": {}
-        }
-      },
-      "NUnitTestAdapter/2.3.0": {
-        "type": "package",
-        "build": {
-          "build/_._": {}
         }
       },
       "runtime.native.System/4.3.0": {
@@ -1234,10 +1228,7 @@
       },
       "Aircompany/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "NUnitTestAdapter": "2.3.0"
-        },
+        "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
           "bin/placeholder/Aircompany.dll": {}
         },
@@ -1919,27 +1910,6 @@
         "build/netcoreapp2.1/nunit.engine.dll",
         "nunit3testadapter.3.16.1.nupkg.sha512",
         "nunit3testadapter.nuspec"
-      ]
-    },
-    "NUnitTestAdapter/2.3.0": {
-      "sha512": "I45o6jTH2CY5z8LtflmJn5DsFhzcDxjDlSm3NE6CUsc9Ms8nvA+1wqRmcXpu7uV3IcGK8mSHVr9nBwDbL8jw4A==",
-      "type": "package",
-      "path": "nunittestadapter/2.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "build/Mono.Cecil.Mdb.dll",
-        "build/Mono.Cecil.Pdb.dll",
-        "build/Mono.Cecil.Rocks.dll",
-        "build/Mono.Cecil.dll",
-        "build/NUnit.VisualStudio.TestAdapter.dll",
-        "build/NUnitTestAdapter.props",
-        "build/nunit.core.dll",
-        "build/nunit.core.interfaces.dll",
-        "build/nunit.util.dll",
-        "nunittestadapter.2.3.0.nupkg.sha512",
-        "nunittestadapter.nuspec"
       ]
     },
     "runtime.native.System/4.3.0": {
@@ -4661,7 +4631,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    ".NETCoreApp,Version=v3.1": [
       "Aircompany >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit >= 3.12.0",
@@ -4685,15 +4655,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "netcoreapp5.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
             "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Aircompany\\Aircompany\\Aircompany.csproj": {
               "projectPath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Aircompany\\Aircompany\\Aircompany.csproj"
@@ -4708,8 +4678,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "netcoreapp5.0",
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",

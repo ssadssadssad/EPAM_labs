@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W9EpIjeiuiX/M+l3SkWrNBkv5dhqR9XRnxUh/7d8adhxoWI/VCxAARDi8R6Z6fShtCIJtitmgQmlkmcYYobxjA==",
+  "dgSpecHash": "o5sy6cmeDT7QoDO5AITj9CxiQF9P7LroEBNNGtuLkDphRjP2wPQvmYgBqQfcj0QfShYD/XHF/3CDLRKn1An/tg==",
   "success": true,
   "projectFilePath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Aircompany\\Aircompany\\Aircompany.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\nunittestadapter\\2.3.0\\nunittestadapter.2.3.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

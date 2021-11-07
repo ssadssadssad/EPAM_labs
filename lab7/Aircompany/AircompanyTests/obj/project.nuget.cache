@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "28cRf21D2OX7Or2xGZOxh7oc3tP4jqw8GgqrZsB6Dehx5FswQ8bZ2VC72k8P97/99C2CMTeuLIbuaqgOqyyqkw==",
+  "dgSpecHash": "fMFTOmQPg4Gpx33qryTpP8S2EIQPjeFAJZ98bfEqEqnHmV/hS+jiFLRuzCrO4EKAiEfuu/vg5PRktbvlLq//iQ==",
   "success": true,
   "projectFilePath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Aircompany\\AircompanyTests\\AircompanyTests.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,6 @@
     "C:\\Users\\User\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\nunit3testadapter\\3.16.1\\nunit3testadapter.3.16.1.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\nunittestadapter\\2.3.0\\nunittestadapter.2.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
