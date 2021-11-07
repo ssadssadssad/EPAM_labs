@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "28cRf21D2OX7Or2xGZOxh7oc3tP4jqw8GgqrZsB6Dehx5FswQ8bZ2VC72k8P97/99C2CMTeuLIbuaqgOqyyqkw==",
+  "dgSpecHash": "PuK2pTF2s98PYdvywqOr7PE23Cmfqg6Fy62l+oSgGaEKb+mkyrkkMl3xYixoO7QM2+/5VoHiGcZsbBO08sKuXw==",
   "success": true,
-  "projectFilePath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Aircompany\\AircompanyTests\\AircompanyTests.csproj",
+  "projectFilePath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\AirportTests\\AircompanyTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wtNz9Tbsi1GAz81Ox1uzaD6iLNVRh8vz1lzqZaTE/8zqbV71qyRA3AB0bgCvPnZJvu/Id/yiRjjxFVm0xl8yLg==",
+  "success": true,
+  "projectFilePath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\Net\\Aircompany.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\nunittestadapter\\2.3.0\\nunittestadapter.2.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

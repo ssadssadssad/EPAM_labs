@@ -4656,8 +4656,8 @@
     },
     "Aircompany/1.0.0": {
       "type": "project",
-      "path": "../Aircompany/Aircompany.csproj",
-      "msbuildProject": "../Aircompany/Aircompany.csproj"
+      "path": "../Net/Aircompany.csproj",
+      "msbuildProject": "../Net/Aircompany.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4674,11 +4674,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Aircompany\\AircompanyTests\\AircompanyTests.csproj",
+      "projectUniqueName": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\AirportTests\\AircompanyTests.csproj",
       "projectName": "AircompanyTests",
-      "projectPath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Aircompany\\AircompanyTests\\AircompanyTests.csproj",
+      "projectPath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\AirportTests\\AircompanyTests.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Aircompany\\AircompanyTests\\obj\\",
+      "outputPath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\AirportTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4695,8 +4695,8 @@
         "net5.0": {
           "targetAlias": "netcoreapp5.0",
           "projectReferences": {
-            "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Aircompany\\Aircompany\\Aircompany.csproj": {
-              "projectPath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Aircompany\\Aircompany\\Aircompany.csproj"
+            "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\Net\\Aircompany.csproj": {
+              "projectPath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\Net\\Aircompany.csproj"
             }
           }
         }

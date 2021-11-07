@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Aircompany\\Aircompany\\Aircompany.csproj": {}
+    "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\Net\\Aircompany.csproj": {}
   },
   "projects": {
-    "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Aircompany\\Aircompany\\Aircompany.csproj": {
+    "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\Net\\Aircompany.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Aircompany\\Aircompany\\Aircompany.csproj",
+        "projectUniqueName": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\Net\\Aircompany.csproj",
         "projectName": "Aircompany",
-        "projectPath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Aircompany\\Aircompany\\Aircompany.csproj",
+        "projectPath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\Net\\Aircompany.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Aircompany\\Aircompany\\obj\\",
+        "outputPath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\Net\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
