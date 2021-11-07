@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0": {
       "Microsoft.CodeCoverage/16.5.0": {
         "type": "package",
         "compile": {
@@ -1234,7 +1234,7 @@
       },
       "Aircompany/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "NUnitTestAdapter": "2.3.0"
         },
@@ -4661,7 +4661,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0": [
       "Aircompany >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit >= 3.12.0",
@@ -4685,15 +4685,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "netcoreapp5.0",
           "projectReferences": {
             "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\Net\\Aircompany.csproj": {
               "projectPath": "D:\\University\\3 course\\1 sem\\EPAM\\EPAM_labs\\lab7\\Net\\Net\\Aircompany.csproj"
@@ -4708,8 +4708,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "netcoreapp5.0",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
