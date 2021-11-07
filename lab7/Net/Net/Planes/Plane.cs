@@ -19,17 +19,12 @@ namespace Aircompany.Planes
 
         public override string ToString()
         {
-            return "Plane{" +
-                "model='" + model + '\'' +
-                ", maxSpeed=" + maxSpeed +
-                ", maxFlightDistance=" + maxFlightDistance +
-                ", maxLoadCapacity=" + maxLoadCapacity +
-                "}";
+            return $"Plane( Model = {model}, MaxSpeed = {maxSpeed}, MaxFlightDistance = {maxFlightDistance}, MaxLoadCapacity = {maxLoadCapacity})";
         }
 
         public override bool Equals(object obj)
         {
-            var plane = obj as Plane;
+            Plane plane = obj as Plane;
             return plane != null &&
                    model == plane.model &&
                    maxSpeed == plane.maxSpeed &&

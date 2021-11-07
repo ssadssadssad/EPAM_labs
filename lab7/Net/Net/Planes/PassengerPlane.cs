@@ -14,7 +14,7 @@ namespace Aircompany.Planes
 
         public override bool Equals(object obj)
         {
-            var plane = obj as PassengerPlane;
+            PassengerPlane plane = obj as PassengerPlane;
             return plane != null &&
                    base.Equals(obj) &&
                    passengersCapacity == plane.passengersCapacity;
@@ -30,9 +30,7 @@ namespace Aircompany.Planes
 
         public override string ToString()
         {
-            return base.ToString().Replace("}",
-                    ", passengersCapacity=" + passengersCapacity +
-                    "}");
+            return base.ToString().Replace(")", $", PassengerCapacity = {passengersCapacity} )");
         }
 
     }
