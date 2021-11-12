@@ -13,8 +13,8 @@ namespace TraderBox.io
     {
         private IWebDriver driver;
         private WebDriverWait wait;
-        private string driverPath = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + @"\TraderBox.io\ChromeDriver\Windows\";
-        //private string driverPath = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + "/TraderBox.io/ChromeDriver/Linux/";
+        //private string driverPath = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + @"\TraderBox.io\ChromeDriver\Windows\";
+        private string driverPath = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + "/TraderBox.io/ChromeDriver/Linux/";
         private const string testEmail = "forepamtesting@mail.ru";
         private const string testPassword = "passwordis12345";
         private const string expectedExchangeResultMessage = "";
