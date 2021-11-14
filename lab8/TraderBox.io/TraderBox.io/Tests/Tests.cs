@@ -6,6 +6,7 @@ using System;
 using System.IO;
 using SeleniumExtras.WaitHelpers;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace TraderBox.io
 {
@@ -17,13 +18,13 @@ namespace TraderBox.io
         private string driverPath = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + "/TraderBox.io/ChromeDriver/Linux/";
         private const string testEmail = "forepamtesting@mail.ru";
         private const string testPassword = "passwordis12345";
-        private const string expectedExchangeResultMessage = "";
+        private const int testValueForDots = 5;
 
         [SetUp]
         public void Setup()
         {
             var chromeOptions = new ChromeOptions();
-            chromeOptions.AddArguments("--headless", "--disable-gpu", "--window-size=1920,1200", 
+            chromeOptions.AddArguments("--headless", "--disable-gpu", "--window-size=1920,1200",
                 "--ignore-certificate-errors", "--disable-extensions", "--no-sandbox", "--disable-dev-shm-usage");
             driver = new ChromeDriver(driverPath, chromeOptions);
             driver.Navigate().GoToUrl("https://traderbox.io/demo");
@@ -33,7 +34,7 @@ namespace TraderBox.io
             logInBtn.Click();
 
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-            var inputEmail = wait.Until(ExpectedConditions.ElementToBeClickable(By.XPath("//input[@id = 'loginform-identifier']")));
+            var inputEmail = wait.Until(ExpectedConditions.ElementExists(By.XPath("//input[@id = 'loginform-identifier']")));
             inputEmail.SendKeys(testEmail);
             var inputPassword = driver.FindElement(By.XPath("//input[@id = 'loginform-password']"));
             inputPassword.SendKeys(testPassword);
@@ -55,41 +56,48 @@ namespace TraderBox.io
             var viewCoinsOfDemoAcc = wait.Until(ExpectedConditions.
                 ElementToBeClickable(By.XPath("//div[@class = 'group']/div[@class = 'title primary-text']")));
             viewCoinsOfDemoAcc.Click();
-            //
+            
+
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(30));
             string startNumberOfDots = wait.Until(ExpectedConditions.
-                ElementToBeClickable(By.
+                ElementExists(By.
                 XPath("//span[contains(text(),'DOT') and @class = 'title primary-text']/ancestor::tr//span[@class = 'primary-text']"))).Text;
+            int dotIndex = startNumberOfDots.IndexOf(".");
+            string startNumberOfDotsBeforeDotIndex = startNumberOfDots.Substring(0, dotIndex);
+            string expectedNumberOfDots = Convert.ToString(Convert.ToInt32(startNumberOfDotsBeforeDotIndex) + testValueForDots);
+
 
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(120));
             var searchForAllPolkadotTradingPairs = wait.Until(ExpectedConditions.
-                ElementToBeClickable(By.XPath("//div[@class = 'input']//input[@type = 'text']")));
+                ElementExists(By.XPath("//div[@class = 'input']//input[@type = 'text']")));
             searchForAllPolkadotTradingPairs.SendKeys("dot");
 
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(240));
             var chooseDotBtcTradingPair = wait.Until(ExpectedConditions.
                 ElementToBeClickable(By.XPath("//div[@class = 'ticker primary-text']//span[contains(text(),'DOT/BTC')]")));
-            Thread.Sleep(5000);
             chooseDotBtcTradingPair.Click();
 
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(240));
             var inputNumberOfDots = wait.Until(ExpectedConditions.
-                ElementToBeClickable(By.XPath("//div[@class = 'order-tab']//div[@class = 'quantity-block']//input[@type = 'text']")));
-            Thread.Sleep(5000);
-            inputNumberOfDots.SendKeys("5");
+                ElementExists(By.XPath("//div[@class = 'order-tab']//div[@class = 'quantity-block']//input[@type = 'text']")));
+            inputNumberOfDots.SendKeys(Convert.ToString(testValueForDots));
 
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(120));
             var submitCurrnecyExchangeBtn = wait.Until(ExpectedConditions.
                 ElementToBeClickable(By.XPath("//div[@class = 'footer primary-bg light']/div[@class = 'button green']")));
             submitCurrnecyExchangeBtn.Click();
-            //
-            Thread.Sleep(5000);
+            
+
+            Task.Delay(5000).Wait();
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(120));
             var finishNumberOfDots = wait.Until(ExpectedConditions.
-                ElementToBeClickable(By.
+                ElementExists(By.
                 XPath("//span[contains(text(),'DOT') and @class = 'title primary-text']/ancestor::tr//span[@class = 'primary-text']"))).Text;
+            dotIndex = finishNumberOfDots.IndexOf(".");
+            string finishNumberOfDotsBeforeDotIndex = finishNumberOfDots.Substring(0, dotIndex);
 
-            Assert.AreNotEqual(startNumberOfDots, finishNumberOfDots);
+
+            Assert.AreEqual(expectedNumberOfDots, finishNumberOfDotsBeforeDotIndex);
         }
 
         [TearDown]
