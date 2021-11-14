@@ -37,20 +37,20 @@ namespace AircompanyTest.Tests
         }
 
         [Test]
-        public void GetTransportMilitaryPlanes_HasAnyTransportMilitaryPlanes_ReturnsTrue()
+        public void DoesGetTransportMilitaryPlanesWorkTest()
         {
             Assert.True(airport.GetTransportMilitaryPlanes().Where(plane => plane.militaryType == MilitaryType.Transport).Any());
         }
 
         [Test]
-        public void GetPassengerPlaneWithMaxPassengersCapacity_ReturnsTrue()
+        public void DoesGetPassengerPlaneWithMaxPassengersCapacityFunctionWorkTest()
         {
             PassengerPlane planeWithMaxPassengerCapacity = new PassengerPlane("Boeing-747", 980, 16100, 70500, 242);
             Assert.AreEqual(planeWithMaxPassengerCapacity, airport.GetPassengerPlaneWithMaxPassengersCapacity());
         }
 
         [Test]
-        public void SortByMaxLoadCapacity_ReturnsTrue()
+        public void DoesSortByMaxLoadCapacityWorkTest()
         {
             CollectionAssert.AreEqual(airport.planes.OrderBy(plane => plane.maxLoadCapacity), airport.SortByMaxLoadCapacity().planes);
         }
